@@ -1,0 +1,33 @@
+@import './src/styles/footer.css';
+@import './src/styles/header.css';
+@import './src/styles/visit.css';
+@import './src/styles/offer.css';
+@import './src/styles/promotion.css';
+@import './src/styles/sign.css';
+
+
+@font-face {
+  font-family: 'tele2-bold';
+  src: url('/public/fonts/tele2_textsans-bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'tele2-regular';
+  src: url('/public/fonts/tele2_textsans-regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'stencil-bold';
+  src: url('/public/fonts/StandardStencil-Bold_media.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+}

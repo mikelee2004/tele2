@@ -1,0 +1,84 @@
+.visit {
+    padding-top: 150px;
+    background-color: #1F2229;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118px;
+}
+
+.visit__aside {
+    max-width: 513px;
+}
+
+.visit__aside__title {
+    color: white;
+    font-size: clamp(24px, 4vw, 40px);
+    font-weight: 700;
+    font-family: 'tele2-bold';
+}
+
+.visit__aside__description {
+    color: white;
+    font-size: clamp(18px, 4vw, 20px);
+    font-weight: 400;
+    padding-top: 30px;
+    font-family: 'tele2-regular';
+}
+
+.visit__aside__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(31, 34, 41, 1);
+    margin-top: 48px;
+    cursor: pointer;
+    font-family: 'tele2-regular';
+    transition: all 0.5s ease;
+}
+
+.visit__aside__button:focus {
+    transform: scale(0.98);
+}
+
+.visit__aside__button:active {
+    transform: scale(0.95);
+    background-color: #4A9ED9;
+}
+
+.visit__aside__button:hover {
+    background-color: #5BB7E3;
+}
+
+.visit__tele__img {
+    width: 359px;
+    height: 373px;
+    margin-right: 100px;
+}
+
+@media (max-width: 1250px) {
+    .visit {
+        padding: 16px;
+        padding-top: 72px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .visit__tele__img {
+        width: 230px;
+        height: 239px;
+        margin-right: 0;
+    }
+
+    .visit__aside__button {
+        margin: 0 auto;
+        margin-top: 48px;
+    }
+}

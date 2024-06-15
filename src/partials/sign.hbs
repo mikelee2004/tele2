@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="/src/styles/sign.css" />
+<section class="sign">
+    <aside class="sign__phone">
+        <h2 class="sign__phone__title">Несколько шагов <br/> <span class="sign__phone__title__span">и 1 ТБ — ваш</span></h2>
+        <input class="sign__phone__input" type="tel" placeholder="Номер телефона" onfocus="if (this.value === '') this.value = '+7';" />
+        
+        <div class="sign__phone__agreement">
+            <fieldset class="sign__phone__agreement__checkbox">
+                <input type="checkbox" class="sign__phone__agreement__checkbox__input">
+                <p class="sign__phone__agreement__text">Даю согласие на обработку персональных данных. <span><a class="sign__phone__agreement__link" href="#">Условия соглашения.</a></span></p>
+            </fieldset> 
+        </div>
+        <button class="sign__phone__agreement__button" disabled>Выслать промокод</button>            
+    </aside>
+    <ol class="sign__instruction">
+        <li class="sign__instruction__element">
+            <img class="sign__instruction__element__img" src="assets/first_step.svg" alt="first-step"/>
+            <p class="sign__instruction__element__text">Ведите свой номер телефона, затем дождитесь СМС с промокодом для получения Тб</p>
+        </li>
+        <li class="sign__instruction__element">
+            <img class="sign__instruction__element__img" src="assets/second_step.svg" alt="first-step"/>
+            <p class="sign__instruction__element__text">Перейдите на сайт Tele2 и активируйте промокод при подключении на тариф «Мой Онлайн+»</p>
+        </li>
+        <li class="sign__instruction__element">
+            <img class="sign__instruction__element__img" src="assets/third_step.svg" alt="first-step"/>
+            <p class="sign__instruction__element__text">Используйте свой подарочный ТБ от Tele2 в течение всего года</p>
+        </li>
+    </ol>
+    </aside>
+</section>

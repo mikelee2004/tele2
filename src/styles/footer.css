@@ -1,0 +1,96 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2229;
+    padding-top: 150px;
+}
+
+.footer__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__section__nav {
+    display: flex;
+    gap: 4px;
+    padding-left: 20px;
+}
+
+.footer__section__nav__img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__section__sixteen {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.footer__section__sixteen__text {
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    white-space: nowrap;
+    font-family: 'tele2-regular';
+}
+
+.footer__section__sixteen_img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.footer__bottom__tele2 {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.footer__bottom__tele2__img {
+    width: 79px;
+    height: 30px;
+}
+
+.footer__bottom__tele2__p {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: 16px;
+    font-weight: 400;
+    font-family: 'tele2-regular';
+}
+
+.footer__bottom {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.footer__bottom__p {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: 16px;
+    font-weight: 400;
+    font-family: 'tele2-regular';
+}
+
+.footer__bottom__img {
+    width: 140px;
+    height: 16px;
+}
+
+@media (max-width:1250px) {
+    .footer__bottom {
+        display: none;
+    }
+}

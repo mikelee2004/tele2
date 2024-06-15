@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    top: 0;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2229;
+    padding-top: 0px;
+    border-bottom: 1px solid #383D4A;
+}
+
+.header__img {
+    height: 33px;
+    width: 88px;
+    padding: 21px 30px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav img {
+    width: 32px;
+    height: 32px;
+}
+
+.header__nav p {
+    color: white;
+    padding-right: 30px;
+    font-size: clamp(18px, 4vw, 20px);
+    font-family: 'tele2-regular';
+}
+
+@media (max-width: 1250px) {
+    .header__nav p {
+        padding-right: 15px;
+    }
+}
