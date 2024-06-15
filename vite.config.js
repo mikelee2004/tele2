@@ -7,7 +7,7 @@ import { defineConfig } from 'vite';
 const targets = browserslistToTargets(browserslist('>=0.25%'));
 
 export default defineConfig ({
-  base: "/tele2-ch",
+  base: "/tele2",
   css: {
     transformer: 'lightningcss',
     lightningcss: {
